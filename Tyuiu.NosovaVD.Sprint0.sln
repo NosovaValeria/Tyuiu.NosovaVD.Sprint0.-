@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{A717BFCF
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tyuiu.NosovaVD.Sprint0.Task0.V0", "Tyuiu.NosovaVD.Sprint0.Task0.V0\Tyuiu.NosovaVD.Sprint0.Task0.V0.vcxproj", "{6DC93275-070F-4E1B-9FFF-9D28F5A8198B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{0B591611-1CB5-42BB-9F43-496E1C459963}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tyuiu.NosovaVD.Sprint0.Task1.V0", "Tyuiu.NosovaVD.Sprint0.Task1.V0\Tyuiu.NosovaVD.Sprint0.Task1.V0.vcxproj", "{61EAD043-AFFC-47A4-B788-B7597605175A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,12 +37,21 @@ Global
 		{6DC93275-070F-4E1B-9FFF-9D28F5A8198B}.Release|x64.Build.0 = Release|x64
 		{6DC93275-070F-4E1B-9FFF-9D28F5A8198B}.Release|x86.ActiveCfg = Release|Win32
 		{6DC93275-070F-4E1B-9FFF-9D28F5A8198B}.Release|x86.Build.0 = Release|Win32
+		{61EAD043-AFFC-47A4-B788-B7597605175A}.Debug|x64.ActiveCfg = Debug|x64
+		{61EAD043-AFFC-47A4-B788-B7597605175A}.Debug|x64.Build.0 = Debug|x64
+		{61EAD043-AFFC-47A4-B788-B7597605175A}.Debug|x86.ActiveCfg = Debug|Win32
+		{61EAD043-AFFC-47A4-B788-B7597605175A}.Debug|x86.Build.0 = Debug|Win32
+		{61EAD043-AFFC-47A4-B788-B7597605175A}.Release|x64.ActiveCfg = Release|x64
+		{61EAD043-AFFC-47A4-B788-B7597605175A}.Release|x64.Build.0 = Release|x64
+		{61EAD043-AFFC-47A4-B788-B7597605175A}.Release|x86.ActiveCfg = Release|Win32
+		{61EAD043-AFFC-47A4-B788-B7597605175A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6DC93275-070F-4E1B-9FFF-9D28F5A8198B} = {A717BFCF-4D07-4759-9B87-77941BCB23CB}
+		{61EAD043-AFFC-47A4-B788-B7597605175A} = {0B591611-1CB5-42BB-9F43-496E1C459963}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {800E80EA-A9A4-4CC9-8EF2-42FFE9195120}
