@@ -3,7 +3,7 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "../../Tyuiu.Cours.cpp/Tyuiu.Cours.cpp.cpp"
+#include "../Tyuiu.Cours.cpp/Tyuiu.Cours.cpp.cpp"
 
 class Service :public ISprint0Task2V0
 {
