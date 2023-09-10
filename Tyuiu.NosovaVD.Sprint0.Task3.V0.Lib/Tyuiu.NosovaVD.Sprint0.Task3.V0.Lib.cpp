@@ -3,23 +3,15 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "../../Tyuiu.Cours.cpp/Tyuiu.Cours.cpp.cpp"
+#include "../Tyuiu.Cours.cpp/Tyuiu.Cours.cpp.cpp"
 
 // TODO: Это пример библиотечной функции.
-class ISprint0Task3V0 
+
+class Service1  : public ISprint0Task3
 {
-public:
-	virtual int Add(int a, int b, int c) = 0; 
-	virtual int Subraction(int a, int b, int c) = 0;
-};
-class Service1  : public ISprint0Task3V0
-{
-	virtual int Add(int a, int b, int c) override  
+	virtual int SummV3(int a, int b, int c) override  
 	{
 		return a + b + c;
 	}
-	virtual int Subraction(int a, int b, int c) override
-	{
-		return a - b - c;
-	}
+ 
 };

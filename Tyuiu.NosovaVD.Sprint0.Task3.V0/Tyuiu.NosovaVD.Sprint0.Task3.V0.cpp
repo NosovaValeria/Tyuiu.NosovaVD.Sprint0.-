@@ -6,10 +6,12 @@
 using namespace std;
 int main()
 {
-    ISprint0Task3V0* primer = new Service1();
-    cout << "Task3\n";
-    cout << "Result 2 + 5 + 8 = " << primer->Add(2, 5, 8) << endl;
-    cout << "Result 28 - 2 - 10 = " << primer->Subraction(28, 2, 10);
+    ISprint0Task3* date = new Service1();
+    cout << "NosovaVD\n";
+    cout << "P = 2 + 5 + 8\n";
+    cout << "Result  = " << date->SummV3(2, 5, 8) << endl;
+    cout << "P = 28 + 2 + 10 \n";
+    cout << "Result = " << date->SummV3(28, 2, 10);
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
