@@ -17,7 +17,8 @@ namespace UnitTest3
 			int b{ 3 };
 			int c = 7;
 			int d(4);
-			Assert::AreEqual(a * b + c * d, 34);
+			int otvet = primer->Calculate(a, b, c, d);
+			Assert::AreEqual(34, otvet);
 		}
 	};
 }
